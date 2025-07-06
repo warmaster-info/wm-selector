@@ -203,7 +203,7 @@
       "type": "Special Mount",
       "attack": "+1",
       "points": "+15",
-      "max": 1
+      "armyMax": 1
     },
     "Warhawk": {
       "order": 2,
