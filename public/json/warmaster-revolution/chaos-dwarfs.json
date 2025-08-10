@@ -177,7 +177,7 @@
       "type": "Monstrous Mount",
       "attack": "+1",
       "points": "+35",
-      "max": 1
+      "armyMax": 1
     },
     "Sorcerer Lord": {
       "order": 2,
