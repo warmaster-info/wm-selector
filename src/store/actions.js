@@ -173,6 +173,11 @@ export default {
   validate (context) {
     context.commit('CLEAR_ERRORS');
 
+    if (context.getters.pointsCost > 800 && context.getters.pointsCost < (1000 * context.getters.size)) {
+      context.commit('PUSH_ERROR', 'Limits calculated for a ' + context.getters.size + ',000 point army (' +
+        (1000 * context.getters.size - context.getters.pointsCost) + ' points remaining).');
+    }
+
     for (var unit in context.getters.units) {
       checkValidations(context, unit, context.getters.units[unit]);
     }
@@ -244,15 +249,15 @@ function checkValidations (context, id, item) {
   } else if (/^As /.test(item.min) &&
              item.number < requiredCount) {
     context.commit('PUSH_ERROR', 'Minimum of ' + requiredCount + ' ' + id + ' per ' + requiredCount + ' ' + requiredSentence + '.');
-  } else if (context.getters.pointsCost >= 1000 &&
+  } else if (context.getters.pointsCost > 800 && // Start the 1000-point army size at > 800 points
              item.number + homologousCount < item.min * context.getters.size) {
-    context.commit('PUSH_ERROR', 'Minimum of ' + (item.min * context.getters.size) + ' ' + id + ' per ' + context.getters.size + ',000 points.');
+    context.commit('PUSH_ERROR', 'Minimum of ' + (item.min * context.getters.size) + ' ' + id + ' in a ' + context.getters.size + ',000 point army.');
   }
 
   // max
   if (item.max === 'elite' &&
       item.number + homologousCount > context.getters.size - 1) {
-    context.commit('PUSH_ERROR', 'Maximum of ' + (context.getters.size - 1) + ' ' + id + ' per ' + context.getters.size + ',000 points.');
+    context.commit('PUSH_ERROR', 'Maximum of ' + (context.getters.size - 1) + ' ' + id + ' in a ' + context.getters.size + ',000 point army.');
   } else  if (item.max === 'Half or None' &&
               item.number > Math.ceil(requiredCount / 2)) {
     context.commit('PUSH_ERROR', 'Maximum of ' + Math.ceil(requiredCount / 2) + ' ' + id + ' per ' + requiredCount + ' ' + requiredSentence + '.');
@@ -264,7 +269,7 @@ function checkValidations (context, id, item) {
              item.number > requiredCount) {
     context.commit('PUSH_ERROR', 'Maximum of ' + requiredCount + ' ' + id + ' per ' + requiredCount + ' ' + requiredSentence + '.');
   } else if (item.number + homologousCount > item.max * context.getters.size) {
-    context.commit('PUSH_ERROR', 'Maximum of ' + (item.max * context.getters.size) + ' ' + id + ' per ' + context.getters.size + ',000 points.');
+    context.commit('PUSH_ERROR', 'Maximum of ' + (item.max * context.getters.size) + ' ' + id + ' in a ' + context.getters.size + ',000 point army.');
   }
 
   // magic items upgrades can't exceed number
