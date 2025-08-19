@@ -1,7 +1,7 @@
 {
   "name": "Orcs",
   "version": "Warmaster Revolution",
-  "group": 0,
+  "group": 2,
   "order": 3,
   "units": {
     "Orc Warriors": {

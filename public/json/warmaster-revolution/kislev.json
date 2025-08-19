@@ -2,7 +2,7 @@
   "name": "Kislev",
   "version": "Warmaster Revolution",
   "group": 1,
-  "order": 1,
+  "order": 6,
   "units": {
     "Winged Lancers": {
       "order": 0,

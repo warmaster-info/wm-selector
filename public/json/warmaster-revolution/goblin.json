@@ -1,8 +1,8 @@
 {
   "name": "Goblin",
   "version": "Warmaster Revolution",
-  "group": 2,
-  "order": 1,
+  "group": 1,
+  "order": 4,
   "units": {
     "Goblins": {
       "order": 0,

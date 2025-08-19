@@ -1,7 +1,7 @@
 {
   "name": "Albion",
   "version": "Warmaster Revolution",
-  "group": 2,
+  "group": 0,
   "order": 0,
   "units": {
     "Warriors": {

@@ -1,8 +1,8 @@
 {
   "name": "Daemons",
   "version": "Warmaster Revolution",
-  "group": 1,
-  "order": 3,
+  "group": 0,
+  "order": 7,
   "units": {
     "Daemon Hordes": {
       "order": 0,

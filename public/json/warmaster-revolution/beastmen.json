@@ -1,8 +1,8 @@
 {
   "name": "Beastmen",
   "version": "Warmaster Revolution",
-  "group": 2,
-  "order": 5,
+  "group": 0,
+  "order": 2,
   "units": {
     "Gor": {
       "order": 0,

@@ -2,7 +2,7 @@
   "name": "Chaos",
   "version": "Warmaster Revolution",
   "group": 0,
-  "order": 2,
+  "order": 6,
   "units": {
     "Chaos Warriors": {
       "order": 0,

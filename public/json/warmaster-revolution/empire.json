@@ -1,8 +1,8 @@
 {
   "name": "Empire",
   "version": "Warmaster Revolution",
-  "group": 0,
-  "order": 0,
+  "group": 1,
+  "order": 3,
   "units": {
     "Halberdiers": {
       "order": 0,

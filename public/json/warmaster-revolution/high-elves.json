@@ -1,8 +1,8 @@
 {
   "name": "High Elves",
   "version": "Warmaster Revolution",
-  "group": 0,
-  "order": 4,
+  "group": 1,
+  "order": 5,
   "units": {
     "Spearmen": {
       "order": 0,

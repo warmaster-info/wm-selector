@@ -2,7 +2,7 @@
   "name": "Norse",
   "version": "Warmaster Revolution",
   "group": 2,
-  "order": 6,
+  "order": 1,
   "units": {
     "Bondsmen": {
       "order": 0,

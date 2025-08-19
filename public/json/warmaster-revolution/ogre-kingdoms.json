@@ -1,8 +1,8 @@
 {
   "name": "Ogre Kingdoms",
   "version": "Warmaster Revolution",
-  "group": 1,
-  "order": 7,
+  "group": 2,
+  "order": 2,
   "units": {
     "Bull Ogres": {
       "order": 0,

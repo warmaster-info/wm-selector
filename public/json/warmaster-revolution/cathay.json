@@ -1,8 +1,8 @@
 {
   "name": "Cathay",
   "version": "Warmaster Revolution",
-  "group": 2,
-  "order": 7,
+  "group": 0,
+  "order": 4,
   "units": {
     "Bannermen": {
       "order": 0,

@@ -1,8 +1,8 @@
 {
   "name": "Tomb Kings",
   "version": "Warmaster Revolution",
-  "group": 0,
-  "order": 1,
+  "group": 2,
+  "order": 5,
   "units": {
     "Skeletons": {
       "order": 0,

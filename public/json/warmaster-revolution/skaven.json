@@ -1,8 +1,8 @@
 {
   "name": "Skaven",
   "version": "Warmaster Revolution",
-  "group": 0,
-  "order": 6,
+  "group": 2,
+  "order": 4,
   "units": {
     "Clanrats": {
       "order": 0,

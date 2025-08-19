@@ -1,8 +1,8 @@
 {
   "name": "Araby",
   "version": "Warmaster Revolution",
-  "group": 1,
-  "order": 4,
+  "group": 0,
+  "order": 1,
   "units": {
     "Spearmen": {
       "order": 0,

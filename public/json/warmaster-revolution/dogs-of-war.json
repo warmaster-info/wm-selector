@@ -2,7 +2,7 @@
   "name": "Dogs of War",
   "version": "Warmaster Revolution",
   "group": 1,
-  "order": 6,
+  "order": 1,
   "units": {
     "Pikemen": {
       "order": 0,
