@@ -19,11 +19,13 @@
       "attack": "2/1",
       "range": "30cm",
       "hits": 3,
-      "armour": "0",
       "size": 3,
       "points": 45,
       "min": 2,
-      "max": 4
+      "max": 4,
+      "specialRules": [
+        "Elves"
+      ]
     },
     "Elf Cavalry": {
       "order": 2,
@@ -33,7 +35,10 @@
       "armour": "6+",
       "size": 3,
       "points": 80,
-      "max": 2
+      "max": 2,
+      "specialRules": [
+        "Elves"
+      ]
     },
     "Dwarfs": {
       "order": 3,
@@ -72,7 +77,6 @@
       "attack": "2/1",
       "range": "30cm",
       "hits": 3,
-      "armour": "0",
       "size": 3,
       "points": 30,
       "max": 2
@@ -135,7 +139,7 @@
   },
   "magic": true,
   "specialRules": {
-    "Elf Archers": {
+    "Elves": {
       "order": 1,
       "text": [
         "Elves have incredibly quick reactions making them exceptionally potent warriors. To represent this, Elves add +1 to their dice when rolling Attacks for shooting and in the first round of each combat engagement, including combats resulting from an advance."
