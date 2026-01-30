@@ -16,6 +16,9 @@
       <a target="_blank" title="Warmaster Revolution Armies" href="/pdfs/WMR_Armies2.25.pdf"><span>Warmaster Revolution Armies</span></a>
     </ArmyListAccordion>
 
+    <ArmyListAccordion :title="'Warmaster Revolution Experimental'">
+    </ArmyListAccordion>
+
     <ArmyListAccordion :title="'Warmaster Armies'">
       <a target="_blank" title="Warmaster Armies" href="/pdfs/Warmaster_Armies.pdf"><span>Warmaster Armies</span></a>
       <a target="_blank" title="Warmaster Armies Errata" href="/pdfs/Warmaster_Armies_Errata_2009.pdf"><span>Warmaster Armies Errata</span></a>

@@ -1,0 +1,310 @@
+{
+  "name": "Kingdoms of Ind",
+  "version": "Warmaster Revolution Experimental",
+  "group": 0,
+  "order": 0,
+  "units": {
+    "Archers": {
+      "order": 0,
+      "type": "Infantry",
+      "attack": "3/1",
+      "range": "30cm",
+      "hits": 3,
+      "size": 3,
+      "points": 55,
+      "min": 2
+    },
+    "Warriors": {
+      "order": 1,
+      "type": "Infantry",
+      "attack": 3,
+      "armour": "5+",
+      "hits": 3,
+      "size": 3,
+      "points": 60
+    },
+    "Devan Hosts": {
+      "order": 2,
+      "type": "Infantry",
+      "attack": 4,
+      "hits": 3,
+      "armour": "5+",
+      "size": 3,
+      "points": 75,
+      "max": 2,
+      "specialRules": [
+        "Devan"
+      ]
+    },
+    "Forest Creatures": {
+      "order": 3,
+      "type": "Infantry",
+      "attack": 4,
+      "hits": 3,
+      "size": 3,
+      "points": 55,
+      "max": 4
+    },
+    "Nobles": {
+      "order": 4,
+      "type": "Chariot",
+      "attack": "3/1",
+      "range": "30cm",
+      "hits": 3,
+      "armour": "5+",
+      "size": 3,
+      "points": 110,
+      "min": 1,
+      "max": 3
+    },
+    "Horsemen": {
+      "order": 5,
+      "type": "Cavalry",
+      "attack": "3/1",
+      "range": "15cm",
+      "hits": 3,
+      "armour": "6+",
+      "size": 3,
+      "points": 75,
+      "max": 1
+    },
+    "Devan Riders": {
+      "order": 6,
+      "type": "Cavalry",
+      "attack": 4,
+      "hits": 3,
+      "armour": "5+",
+      "size": 3,
+      "points": 110,
+      "max": 1,
+      "specialRules": [
+        "Devan"
+      ]
+    },
+    "Elephants": {
+      "order": 7,
+      "type": "Monster",
+      "attack": 5,
+      "hits": 4,
+      "armour": "5+",
+      "size": 3,
+      "points": 200,
+      "max": 1
+    },
+    "Devan Flyers": {
+      "order": 8,
+      "type": "Monster",
+      "attack": 2,
+      "hits": 3,
+      "armour": "5+",
+      "size": 3,
+      "points": 80,
+      "max": 1,
+      "specialRules": [
+        "Devan"
+      ]
+    },
+    "Maharajah": {
+      "order": 9,
+      "type": "General",
+      "attack": "+2",
+      "command": 9,
+      "size": 1,
+      "points": 125,
+      "armyMin": 1,
+      "armyMax": 1,
+      "upgrades": [
+        "Elephant",
+        "Chariot"
+      ]
+    },
+    "Rajah": {
+      "order": 10,
+      "type": "Hero",
+      "attack": "+1",
+      "command": 8,
+      "size": 1,
+      "points": 80,
+      "max": 2,
+      "upgrades": [
+        "Elephant",
+        "Chariot"
+      ]
+    },
+    "Avatar": {
+      "order": 11,
+      "type": "Hero",
+      "attack": "+3",
+      "command": 6,
+      "size": 1,
+      "points": 0,
+      "noCount": true,
+      "noMagic": true,
+      "requiredUnits": [
+        "Purohita"
+      ]
+    },
+    "Purohita": {
+      "order": 12,
+      "type": "Wizard",
+      "attack": "+0",
+      "command": 7,
+      "size": 1,
+      "points": 45,
+      "max": 1,
+      "upgrades": [
+        "Elephant",
+        "Chariot"
+      ]
+    }
+  },
+  "upgrades": {
+    "Elephant": {
+      "order": 0,
+      "type": "Monstrous Mount",
+      "attack": "+2",
+      "points": "+65",
+      "max": 1
+    },
+    "Chariot": {
+      "order": 1,
+      "type": "Chariot Mount",
+      "attack": "+1",
+      "points": "+10",
+      "max": 1
+    }
+  },
+  "magic": true,
+  "armyRules": [
+    "**Battling Devans.** As conflict unfolds in the mortal world, the army’s Devan (or even Devans) champion their cause, while others interfere. At the start of each Ind turn, if the army contains at least one stand of a Devan unit or an Avatar, roll a D6. If the result is 5 or 6, at any point during that turn the Ind player may re-roll a single D6. If a 1 or 2, their opponent may force the re-roll of a single D6. If 3 or 4, nothing happens."
+  ],
+  "specialRules": {
+    "Devan": {
+      "order": 1,
+      "text": [
+        "Ignore the −1 Attack penalty in combat for fighting terrifying troops.",
+        "",
+        "Orders to Devans brigaded with non-Devan units incur a −1 command penalty.",
+        "",
+        "At the start of the player’s own Command phase, before initiative movement, each friendly Devan unit that has lost at least one stand rolls a D6. If the unit has lost 2 stands and is further away than 20cm from a Devan Avatar or Purohita, deduct 1 from the roll.",
+        "",
+        "0–1: Remove one stand. If an Avatar is with the unit and the last stand is removed, the Avatar is also removed.",
+        "",
+        "2–3: The unit becomes confused.",
+        "",
+        "4–5: No effect unless the unit is confused, in which case it ceases to be confused.",
+        "",
+        "6: The unit regains one stand. The regained stand is placed in formation with the rest of the unit. If it is impossible to position the stand in a formation, it cannot be added."
+      ]
+    },
+    "Forest Creatures": {
+      "order": 2,
+      "text": [
+        "Can only be brigaded with other Forest Creatures units and do not suffer the −1 command penalty for being in dense terrain."
+      ]
+    },
+    "Horsemen": {
+      "order": 3,
+      "text": [
+        "Have a range of 15cm and can shoot from any edge."
+      ]
+    },
+    "Elephants": {
+      "order": 4,
+      "text": [
+        "Cause terror and cannot be brigaded with cavalry or chariots.",
+        "",
+        "If an Elephant unit would for any reason become confused, it will stampede instead. Stampeding Elephants cannot be given orders or use initiative. Each unit moves according to a D6 roll made at the start of the Command phase:",
+        "",
+        "**Elephant Stampede Chart**",
+        "",
+        "_**D6**_|_**Result**_",
+        "-|-",
+        "**1-2:**|Move the elephant unit towards the nearest enemy unit as far as possible. If they contact the enemy unit they charge; if they contact a friendly unit, they burst through",
+        "**3-4:**|Move the elephant unit directly away from the nearest enemy unit as far as possible. If the elephants contact an enemy unit, they charge; if they contact a friendly unit, they burst through.",
+        "**5:**|Move the elephant unit towards the nearest friendly unit as far as possible. If the elephant contacts any unit (friendly or enemy), they charge.",
+        "**6:**|Move the elephant unit directly away from the nearest friendly unit as far as possible. If the elephant contacts any unit (friendly or enemy), they charge.",
+        "",
+        "A stampeding Elephant unit that charges will fight in the Combat phase. It counts as an enemy unit for the duration of the combat.",
+        "",
+        "If the Elephants win a combat round they must pursue if possible and will continue to do so in successive combat rounds.",
+        "",
+        "Should their opponents be destroyed, they will not advance but will halt.",
+        "",
+        "Their stampede ceases at the end of their player’s next Command phase."
+      ]
+    },
+    "Devan Flyers": {
+      "order": 5,
+      "text": [
+        "Can fly and are based facing the long edge of their stands."
+      ]
+    },
+    "Avatar": {
+      "order": 6,
+      "text": [
+        "A unit joined by the Avatar causes terror."
+      ]
+    },
+    "Elephant": {
+      "order": 7,
+      "text": [
+        "Characters on Elephants cannot join friendly units of mortal cavalry or chariots.",
+        "",
+        "A unit joined by the character causes Terror."
+      ]
+    }
+  },
+  "spells": [
+    {
+      "name": "Behold the Avatar",
+      "roll": 6,
+      "range": "N/A",
+      "text": [
+        "*Drawing upon their last reserves of magical energy, the Purohita summons a terrifying Avatar and then retires – utterly exhausted – from the battlefield.*",
+        "",
+        "This spell can only be cast successfully once per game.",
+        "",
+        "If successful, replace the Purohita with an Avatar. The Purohita counts as lost when calculating victory points at the end of the game."
+      ]
+    },
+    {
+      "name": "Thousand-Eyed Spies",
+      "roll": 5,
+      "range": "50cm",
+      "text": [
+        "*The night before battle the Purohita secretly entered the enemy camp and subverted the dreams of leading officers. Triggered later by his magical words and gaze, they issue contradictory orders to their soldiers.*",
+        "",
+        "This spell can only be cast on an unengaged enemy unit visible to the Purohita.",
+        "",
+        "Until the end of their player’s next Command phase, the unit cannot form part of a brigade."
+      ]
+    },
+    {
+      "name": "Tongues of Fire",
+      "roll": 5,
+      "range": "30cm",
+      "text": [
+        "*The Purohita carefully gathers the Devan’s energy before directing it suddenly to wreak havoc amongst their enemies.*",
+        "",
+        "This spell can only be cast on an unengaged enemy unit visible to the Purohita.",
+        "",
+        "It is treated like 3 ordinary shooting attacks except that armour has no effect. Target unit can be driven back by the spell."
+      ]
+    },
+    {
+      "name": "Summon Devans",
+      "roll": 4,
+      "range": "30cm",
+      "text": [
+        "*As its link to the mortal world, the Purohita appeals to their deity for reinforcements to smite the foes.*",
+        "",
+        "This spell can be cast on any friendly Devan unit that has lost one or two stands. The Purohita does not need to see the unit.",
+        "",
+        "The unit regains one stand, which is placed in formation with the rest of the unit. If the unit is already in combat the additional stand can be placed so that it touches the enemy and will count as charging if the unit charged.",
+        "",
+        "If it is impossible to position the stand in a formation with its unit, the spell cannot be cast."
+      ]
+    }
+  ]
+}
