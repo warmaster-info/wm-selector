@@ -42,12 +42,12 @@
     <footer id="footer">
       <p>This website is completely unofficial and in no way endorsed by Games Workshop Limited.</p>
 
-      <p>This Warmaster army selector (v{{version}}) is open source and maintained on <a href="https://github.com/dsusco/wm-selector" target="_blank">GitHub</a>.</p>
+      <p>This Warmaster army selector (v{{version}}_warmaster.info) is open source and maintained on <a href="https://github.com/warmaster-info/wm-selector" target="_blank">GitHub</a>.  It is a copy of <a href="https://wm-selector.github.io" target="_blank">the original selector</a> with bugfixes applied and experimental/developmental lists added.</p>
 
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
         <input type="hidden" name="cmd" value="_s-xclick" />
         <input type="hidden" name="hosted_button_id" value="ADMR9VQE2JRTE" />
-        <button type="submit">Donate</button>
+        <button type="submit">Donate (to the original developer)</button>
       </form>
     </footer>
 
