@@ -64,7 +64,7 @@
     "Dire Wolves": {
       "order": 6,
       "type": "Cavalry",
-      "attack": 2,
+      "attack": "2*",
       "hits": 3,
       "size": 3,
       "points": 40,

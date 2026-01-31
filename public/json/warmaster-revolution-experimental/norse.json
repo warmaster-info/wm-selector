@@ -46,7 +46,7 @@
     "Ulfwerener": {
       "order": 4,
       "type": "Infantry",
-      "attack": 4,
+      "attack": "4*",
       "hits": 4,
       "armour": "6+",
       "size": 3,

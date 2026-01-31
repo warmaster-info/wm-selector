@@ -7,7 +7,7 @@
     "Zealots": {
       "order": 0,
       "type": "Infantry",
-      "attack": 3,
+      "attack": "3‡",
       "hits": 3,
       "size": 3,
       "points": 35,

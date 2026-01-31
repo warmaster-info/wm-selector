@@ -102,7 +102,9 @@ export default {
       state.upgradeConstraints.forEach((upgradeConstraint) => {
         if (upgradeConstraint.unitType.includes(unit.type) &&
             (upgradeConstraint.unitArmour === undefined || upgradeConstraint.unitArmour.includes(unit.armour || '-')) &&
+            (upgradeConstraint.unitAttack === undefined || upgradeConstraint.unitAttack.includes(unit.attack || '-')) &&
             (upgradeConstraint.unitHits === undefined || upgradeConstraint.unitHits.includes(unit.hits || '-')) &&
+            (upgradeConstraint.notArmy === undefined || !upgradeConstraint.notArmy.includes(state.armyList)) &&
             !unit.noUpgrades &&
             !(unit.noMagic && upgradeConstraint.magic)) {
           try {
