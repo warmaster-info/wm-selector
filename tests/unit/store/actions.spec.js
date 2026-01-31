@@ -554,7 +554,8 @@ describe('store.js actions', () => {
     it('max violation commits PUSH_ERROR', () => {
       context.getters.units['unit'] = { max: 1, number: 2 };
       actions.validate(context);
-      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 unit per 1,000 points.');
+      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 unit in a 1,000 point army.');
+      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 upgrade or homologous_upgrade in a 1,000 point army.');
     });
 
     it('magic item count violation commits PUSH_ERROR', () => {
