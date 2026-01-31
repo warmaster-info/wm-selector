@@ -57,6 +57,10 @@ td {
   padding: 0 .5em;
 }
 
+.selector-view {
+  user-select: none;
+}
+
 [tabindex] {
   cursor: pointer;
 }
