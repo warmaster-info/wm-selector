@@ -1,8 +1,8 @@
 {
   "name": " ",
   "version": "Warmaster Revolution Experimental",
-  "group": 1,
-  "order": 0,
+  "group": 3,
+  "order": 1,
   "units": {
     "Invisible tiny ghosts": {
       "order": 0,
