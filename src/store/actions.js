@@ -249,6 +249,9 @@ function checkValidations (context, id, item) {
   } else if (/^As /.test(item.min) &&
              item.number < requiredCount) {
     context.commit('PUSH_ERROR', 'Minimum of ' + requiredCount + ' ' + id + ' per ' + requiredCount + ' ' + requiredSentence + '.');
+  } else if (context.getters.pointsCost <= 800 && // Small army / start of list, warn though the intention might be a <1000pt battle withit minima.
+             item.number + homologousCount < item.min * context.getters.size) {
+    context.commit('PUSH_ERROR', 'Minimum of ' + (item.min * context.getters.size) + ' ' + id + ' for a 1000 point army.');
   } else if (context.getters.pointsCost > 800 && // Start the 1000-point army size at > 800 points
              item.number + homologousCount < item.min * context.getters.size) {
     context.commit('PUSH_ERROR', 'Minimum of ' + (item.min * context.getters.size) + ' ' + id + ' in a ' + context.getters.size + ',000 point army.');
