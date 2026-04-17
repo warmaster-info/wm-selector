@@ -37,7 +37,7 @@
       "hits": 3,
       "armour": "5+",
       "size": 3,
-      "points": 75,
+      "points": 80,
       "max": 2
     },
     "Minotaurs": {
@@ -159,13 +159,13 @@
       "order": 0,
       "type": "Chariot Mount",
       "attack": "+1",
-      "points": "+10",
+      "points": "+5",
       "max": 1
     }
   },
   "magic": true,
   "armyRules": [
-    "__The things in the woods.__ Beastmen infantry do not suffer the usual -1 Command penalty when within woodland."
+    "__The Things in the Woods.__ Beastmen infantry do not suffer the usual -1 Command penalty when within woodland."
   ],
   "specialRules": {
     "Gor/Ungor": {
@@ -187,7 +187,7 @@
     "Minotaurs": {
       "order": 2,
       "text": [
-        "Minotaurs are subject for Bloodlust – they always use initiative to charge if possible and cannot be given orders instead. Minotaurs never use initiative to evade and must pursue or advance where possible. Also they are immune to terror."
+        "Minotaurs are subject to Bloodlust – they always use initiative to charge if possible and cannot be given orders instead. A unit with Bloodlust never uses initiative to evade and must pursue or advance where possible. Also, it is immune to terror, cannot be driven back by shooting and never rolls for drive backs."
       ]
     },
     "Centigors": {
@@ -207,7 +207,7 @@
       "text": [
         "Spawn units have -1 Command penalty if not part of a brigade that includes more non-Spawn units than Spawn units. Up to two Spawn units can be included in any brigade and do not count towards the maximum size of that brigade.",
         "",
-        "Spawn units cause terror in combat - enemies suffer the -1 Combat modifier for fighting terrifying creatures. Spawn units cannot be driven back by shooting and never rolls for drive backs. Spawn units must pursue or advance if victorious in combat where it is permitted to do so.",
+        "Spawn units cause terror in combat - enemies suffer the -1 Combat modifier for fighting terrifying creatures. Spawn units cannot be driven back by shooting and never roll for drive backs. Spawn units must pursue or advance if victorious in combat where it is permitted to do so.",
         "",
         "Spawn units have a shooting range of 15cm and 360° vision – stands in this unit can draw line of sight from all edges for the purpose of evading and shooting, including shooting at charging enemies. Note that this unit still needs Line of Sight from its front edge to charge an enemy."
       ]
@@ -245,13 +245,13 @@
       ]
     },
     {
-      "name": "Hunting for Gore!",
+      "name": "Hunting for Gore",
       "roll": 5,
       "range": "30cm",
       "text": [
         "*The Shaman’s magic power arouses in the herd an uncontrollable desire to tear asunder any enemy and feast on their bloody remains. Rows of wild warriors charge headlong into their foes.*",
         "",
-        "The spell can be cast on unengaged friendly unit of infantry or cavalry within range regardless of whether the Shaman can see it or not. The spell affects only a single unit, never a brigade. The unit can be moved just as if it had received an order in the Command phase. Character stands that have joined the unit will not move with it - they remain where they are."
+        "The spell can be cast on an unengaged friendly unit of infantry or cavalry within range regardless of whether the Shaman can see it or not. The spell affects only a single unit, never a brigade. The unit can be moved just as if it had received an order in the Command phase. Character stands that have joined the unit will not move with it - they remain where they are."
       ]
     },
     {

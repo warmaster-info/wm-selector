@@ -21,7 +21,7 @@
       "hits": 3,
       "armour": "5+",
       "size": 3,
-      "points": 75,
+      "points": 80,
       "min": 2,
       "specialRules": [
         "Reptilian"
@@ -47,7 +47,7 @@
       "range": "15cm",
       "hits": 3,
       "size": "+1",
-      "points": 25,
+      "points": 20,
       "max": 2,
       "augendUnits": [
         "Skinks"
@@ -170,7 +170,7 @@
   },
   "magic": true,
   "armyRules": [
-    "__Dense Terrain.__ No command penalty is applied to any units in the Lizardmen army on account of dense terrain. The Lizardmen's ruin infested jungle homeland is mostly dense terrain and they are used to communicating through thick jungle and narrow tunnels by a mix of instinct and bizarre sub-sonic noises inaudible to other races."
+    "__Dense Terrain.__ No command penalty is applied to any units in the Lizardmen army on account of dense terrain. The Lizardmen's ruin-infested jungle homeland is mostly dense terrain and they are used to communicating through thick jungle and narrow tunnels by a mix of instinct and bizarre sub-sonic noises inaudible to other races."
   ],
   "specialRules": {
     "Skinks": {
@@ -188,7 +188,7 @@
     "Salamanders": {
       "order": 3,
       "text": [
-        "Salamander stands are not deployed as independent units. Instead, any Skink infantry unit may add one stand of Salamanders. This brings the size of the unit to 4 stands: 3 regular stands plus the Salamander.",
+        "Salamander stands are not deployed as independent units. Instead, any Skink infantry unit may add one stand of Salamanders. This brings the size of the unit to 4 stands: 3 regular stands plus the Salamander stand.",
         "",
         "Salamanders always have the same Armour value as the rest of their unit. They fight as part of their unit and can be removed as a unit casualty if the player wishes.",
         "",
@@ -224,7 +224,7 @@
       "text": [
         "The Slann Mage rides a palanquin carried by his bodyguard of fierce Saurus warriors - his combat bonus is due to his bodyguard. The Slann Mage is the army's general but uniquely amongst commanders he cannot give orders, but has foreseen the flow of the battle and given his Skink retainers instructions. To represent this any Skink character within 20cm of the Slann can announce his use of the General’s Divine Guidance - deducting -1 from his dice score (e.g. 8 counts as 7, 10 as 9 and so on). When Divine Guidance is used the Skink cannot ‘Blunder’ - any roll of double 6 simply counts as a fail. If a Divine Guidance roll is failed then the Slann’s Divine Guidance cannot be used by any other characters that have not ordered yet in that turn, their confusion over the mixup is represented by adding +1 to their first order rolls.",
         "",
-        "In addition the Slann is a great sorcerer. He can cast spells as a Wizard and can be given a magic item restricted to either a general or wizard should you so wish. Slaan Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted. The Slann Mage can also cast his spell using a Skink Shaman as the focus if desired - work out range and line of sight as if the spell were cast by the Shaman. This does not affect the Shaman's own ability to cast spells that turn."
+        "In addition the Slann is a great sorcerer. He can cast spells as a Wizard and can be given a magic item restricted to either a General or Wizard should you so wish. Slaan Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted. The Slann Mage can also cast his spell using a Skink Shaman as the focus if desired - work out range and line of sight as if the spell were cast by the Shaman. This does not affect the Shaman's own ability to cast spells that turn."
       ]
     },
     "Stegadon Mount": {
@@ -246,7 +246,7 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "*Burning jade coloured rays leap from the wizard's lidded eyes enshrouding and choking his enemies in writhing coils of magic.*",
+        "*Burning jade-coloured rays leap from the Wizard's lidded eyes enshrouding and choking his enemies in writhing coils of magic.*",
         "",
         "This spell can be cast on an enemy unit. The Wizard must be able to see his target to use this spell. The spell cannot be directed at a unit engaged in combat.",
         "",
@@ -258,7 +258,7 @@
       "roll": 4,
       "range": "60cm",
       "text": [
-        "*The wizard's foes bowels melt with dread or possibly something much worse, hindering their movement as if hobbled.*",
+        "*The Wizard's foes' bowels melt with dread or possibly something much worse, hindering their movement as if hobbled.*",
         "",
         "This spell can be cast on any enemy unit within range regardless of whether the Wizard can see it or not.",
         "",

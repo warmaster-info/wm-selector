@@ -125,26 +125,38 @@
       "command": 7,
       "size": 1,
       "points": 55,
-      "max": 1
+      "max": 1,
+      "upgrades": [
+        "War Altar"
+      ]
+    }
+  },
+  "upgrades": {
+    "War Altar": {
+      "order": 1,
+      "type": "Chariot Mount",
+      "attack": "+2",
+      "points": "+15",
+      "armyMax": 1
     }
   },
   "magic": true,
   "armyRules": [
     "__GENERAL NOTE:__",
     "",
-    "Some unit’s abilities from Witch Hunter army will affect ‘Chaos and/or Undead’. ‘Chaos’ means Chaos army, Daemons army, Beastmen army, Chaos Dwarf army and Skaven army. ‘Undead’ means Undead Tomb Kings army and Vampire Counts army (including units of Ghouls!)."
+    "The abilities of some units in the Witch Hunter army will affect ‘Chaos and/or Undead’. ‘Chaos’ means the Chaos army, Daemons army, Beastmen army, Chaos Dwarf army and Skaven army. ‘Undead’ means the Tomb Kings army and Vampire Counts army (including units of Ghouls!)."
   ],
   "specialRules": {
     "Zealots": {
       "order": 1,
       "text": [
-        "Zealots form the main part of a Witch Hunter army, and are drawn from mobs whipped up by priest’s sermons. These troops gain +1 Attack in the first round of combat against Undead or Chaos (regardless of who charged) and will always use their initiative to charge these enemies if possible. If victorious in combat with Undead or Chaos like enemies they must pursue or advance where possible."
+        "Zealots form the main part of a Witch Hunter army, and are drawn from mobs whipped up by priests’ sermons. These troops gain +1 Attack in the first round of combat against Undead or Chaos (regardless of who charged) and will always use their initiative to charge these enemies if possible. If victorious in combat with Undead or Chaos-like enemies they must pursue or advance where possible."
       ]
     },
     "Handgunners": {
       "order": 2,
       "text": [
-        "Count enemy armour values as one worse than normal when shot by a handgun. So an armour value of 3+ counts as 4+, 4+ as 5+, and 5+ as 6+, whilst an armour value of 6+ can’t save against a handgun."
+        "Count enemy armour values as one worse than normal when shot by a handgun. So an Armour value of 3+ counts as 4+, 4+ as 5+, and 5+ as 6+, whilst an armour value of 6+ can’t save against a handgun."
       ]
     },
     "Flagellants": {
@@ -173,6 +185,12 @@
     },
     "Cannon": {
       "order": 6
+    },
+    "War Altar": {
+      "order": 7,
+      "text": [
+        "A Warrior Priest may be mounted on a War Altar. A Warrior Priest with a War Altar suffers a movement reduction to 30cm. The army can only ever include one War Altar, and it can only be included if there is at least 1 unit of Flagellants in the army. The War Altar adds +2 attacks to the Warrior Priest and can be used to add +1 to the Warrior Priest’s dice roll to cast a spell once per battle. The player must announce that the War Altar’s spell bonus is being used before rolling the dice to determine if the spell is cast."
+      ]
     }
   },
   "spells": [
@@ -182,7 +200,7 @@
       "text": [
         "*The Warrior Priest consecrates the ground before the troops, warding off evil.*",
         "",
-        "The Wizard must be with the unit to affect it. The unit counts as being defended, even if in the open. If the unit is already defended, it counts as fortified. Note that this also affects Cavalry units, even though they are not normally able to receive this bonus. The effect lasts until the unit moves or Priest leaves it or he casts another spell."
+        "The Warrior Priest must be with the unit to affect it. The unit counts as being defended, even if in the open. If the unit is already defended, it counts as fortified. Note that this also affects Cavalry units, even though they are not normally able to receive this bonus. The effect lasts until the unit moves or Priest leaves it or he casts another spell."
       ]
     },
     {
@@ -201,7 +219,7 @@
       "text": [
         "*Enraged by their blasphemous enemies the troops rush forward thirsty for blood.*",
         "",
-        "The Wizard must be with the unit to affect it. If successfully cast on a friendly unit, each stand including character stands gains +1 Attack during the following Combat phase."
+        "The Warrior Priest must be with the unit to affect it. If successfully cast on a friendly unit, each stand including character stands gains +1 Attack during the following Combat phase."
       ]
     },
     {

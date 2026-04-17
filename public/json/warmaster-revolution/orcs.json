@@ -185,7 +185,7 @@
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
-      "points": "+10",
+      "points": "+5",
       "max": 1
     }
   },
@@ -221,14 +221,20 @@
     "Stone Thrower": {
       "order": 6
     },
-    "Wyvern": {
+    "Orc General": {
       "order": 7,
+      "text": [
+        "Once per game, at any point in the Command Phase, the Orc General motivates his troops forwards. For the remainder of that Command phase, the Orc General ignores the Command Penalty for having an enemy within 20cm of a unit."
+      ]
+    },
+    "Wyvern": {
+      "order": 8,
       "text": [
         "Generals, Wizards and Heroes can ride Wyverns. A Wyvern can fly, increasing its riders' move from 60 to 100cm, and it adds +2 Attacks to those of its rider. A unit that includes a Wyvern rider causes terror in its enemies."
       ]
     },
     "Chariot": {
-      "order": 8,
+      "order": 9,
       "text": [
         "A General, Wizard or Hero can ride a Chariot. A character in a chariot adds +1 to his Attacks."
       ]
@@ -264,7 +270,7 @@
       "roll": 5,
       "range": "60cm",
       "text": [
-        "*The voice of Gork booms out across the battlefield driving back his foes with a rancid gale force yell.*",
+        "*The voice of Gork booms out across the battlefield driving back his foes with a rancid gale-force yell.*",
         "",
         "This spell can be cast on any unengaged enemy unit within range regardless of whether the Shaman can see it or not. The spell cannot be cast on a unit engaged in combat.",
         "",
@@ -276,9 +282,9 @@
       "roll": 4,
       "range": "30cm",
       "text": [
-        "*The shaman summons the power of the mighty Waaagh! to invigorate the greenskins.*",
+        "*The Shaman summons the power of the mighty Waaagh! to invigorate the greenskins.*",
         "",
-        "This spell can be cast on a friendly unit of Orc or Goblins engaged in combat; including Black Orcs, Wolf Riders, Boar Boyz and any type of Orc or Goblin troops but not Trolls, Ogres, Giants or other non-greenskins. The spell can be castregardless of whether the Shaman can see the target or not.",
+        "This spell can be cast on a friendly unit of Orcs or Goblins engaged in combat; including Black Orcs, Wolf Riders, Boar Boyz and any type of Orc or Goblin troops but not Trolls, Ogres, Giants or other non-greenskins. The spell can be cast regardless of whether the Shaman can see the target or not.",
         "",
         "The spell lasts for the duration of the following Combat phase. Every stand in the unit, including characters that have joined the unit, adds +1 to its Attacks value."
       ]

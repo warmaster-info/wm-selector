@@ -96,7 +96,7 @@
       "attack": "+2",
       "command": 10,
       "size": 1,
-      "points": 180,
+      "points": 155,
       "armyMin": 1,
       "armyMax": 1,
       "upgrades": [
@@ -119,7 +119,7 @@
         "Chariot"
       ]
     },
-    "Wizard": {
+    "Mage": {
       "order": 10,
       "type": "Wizard",
       "attack": "+0",
@@ -182,7 +182,7 @@
         "",
         "Because Dragon Riders have a great many hits (6) which are difficult to inflict even during a lengthy combat engagement, we must consider the possibility of hurting the Dragon and reducing its effectiveness in subsequent turns. Therefore, if a Dragon Rider has accumulated 4-5 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. Once a Dragon has been badly hurt all accumulated hits are discounted and its maximum hits value and Attacks are halved for the rest of the battle (to 3 Hits and 3/2 Attacks).",
         "",
-        "Generals, Wizards and Heroes can ride Dragons. A Dragon can fly increasing its rider's move from 60 to 100cm. An extra +3 Attacks are added to those of its rider. A Dragon can breath fire if the character has joined a unit that isn't engaged in combat. A Dragon ridden by a character can't breath fire if it is not part of a unit.",
+        "Generals, Mages and Heroes can ride Dragons. A Dragon can fly increasing its rider's move from 60 to 100cm. An extra +3 Attacks are added to those of its rider. A Dragon can breath fire if the character has joined a unit that isn't engaged in combat. A Dragon ridden by a character can't breath fire if it is not part of a unit.",
         "",
         "Dragons can make a fiery breath. This applies both to a unit of Dragon Riders and to Dragons ridden by characters that have joined a unit of troops. Dragon fire works as follows. The fire breath has a range of 20cm. Breath can be directed against one target as for normal shooting and has 3 Attacks that are worked out in the usual way at 4+ to hit."
       ]
@@ -190,7 +190,7 @@
     "Elven Bolt Thrower": {
       "order": 4
     },
-    "Wizard": {
+    "Mage": {
       "order": 5,
       "text": [
         "High Elf Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted."
@@ -199,13 +199,13 @@
     "Giant Eagle": {
       "order": 6,
       "text": [
-        "Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider's move from 60 to 100cm. An extra +2 Attacks are added to those of its rider."
+        "Generals, Mages and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider's move from 60 to 100cm. An extra +2 Attacks are added to those of its rider."
       ]
     },
     "Chariot": {
       "order": 7,
       "text": [
-        "Generals, Wizards and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider."
+        "Generals, Mages and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider."
       ]
     }
   },
@@ -241,7 +241,7 @@
       "roll": 4,
       "range": "30cm",
       "text": [
-        "*The mage imbues the Elven archers with an unearthly swiftness enabling them to rain death upon the enemy.*",
+        "*The Mage imbues the Elven archers with an unearthly swiftness enabling them to rain death upon the enemy.*",
         "",
         "This spell can be cast upon a friendly unit of unengaged missilearmed infantry or cavalry within range. It cannot be cast on artillery. The Mage does not need to be able to see the friendly unit nor their intended target.",
         "",
@@ -253,7 +253,7 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "*A hail of fiery arrows flies from the Mage's outstretched finger tips and strikes an enemy unit.*",
+        "*A hail of fiery arrows flies from the Mage's outstretched fingertips and strikes an enemy unit.*",
         "",
         "This spell can be cast on an enemy unit. The Mage must be able to see his target to use this spell. The spell cannot be directed at a unit engaged in combat.",
         "",

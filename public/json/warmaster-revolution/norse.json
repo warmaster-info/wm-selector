@@ -54,7 +54,7 @@
       "max": 1,
       "noMagic": true
     },
-    "Cavalry": {
+    "Hird Horsemen": {
       "order": 5,
       "type": "Cavalry",
       "attack": 3,
@@ -163,7 +163,7 @@
     "Ulfwerener": {
       "order": 2,
       "text": [
-        "Unlike usual infantry troops, the Ulfwerener are based facing the short edge in the same way as cavalry. In addition they receive an additional +1 Attack modifier when they charge an enemy in the open in the same way as monsters and chariots and have an ability to pursue cavalry and chariots troop types. The Ulfwerener stands can never support or be supported. Because of their rather bestial nature, only characters with the Were Kin Character upgrade may join units of Ulfwerener. Ulfwerener units can not take any magic items."
+        "Unlike usual infantry troops, the Ulfwerener are based facing the short edge in the same way as cavalry. In addition they receive an additional +1 Attack modifier when they charge an enemy in the open in the same way as monsters and chariots and have an ability to pursue cavalry and chariots troop types. The Ulfwerener stands can never support or be supported. Because of their rather bestial nature, only characters with the Were Kin Character upgrade may join units of Ulfwerener. Ulfwerener units cannot take any magic items."
       ]
     },
     "Giant": {
@@ -194,7 +194,7 @@
     "Horn of Resounding": {
       "order": 7,
       "text": [
-        "A single shaman in the army may be given this chariot upgrade. It gives the shaman +1 Attack if the Horn is used the Shaman inspires the units around him to fight harder. He may add +1 to all of his Command checks for a single turn only."
+        "A single shaman in the army may be given this chariot upgrade. It gives the shaman +1 Attack if the Horn is used as the Shaman inspires the units around him to fight harder. He may add +1 to all of his Command checks for a single turn only."
       ]
     }
   },
@@ -204,7 +204,7 @@
       "roll": 4,
       "range": "30cm",
       "text": [
-        "*The Shaman turns the friendly unit into an illusive pack of monstrous creatures entailing the fear in a hearts of enemies.*",
+        "*The Shaman turns the friendly unit into an illusive pack of monstrous creatures instilling fear in a hearts of enemies.*",
         "",
         "This spell can only be cast on any friendly unit within range regardless of whether the Shaman can see it or not. The unit counts as causing terror for the duration of the Combat phase."
       ]
@@ -214,11 +214,11 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "A lightning shoots from the Shaman’s outstretched arm burning all in its path.",
+        "Lightning shoots from the Shaman’s outstretched arm burning all in its path.",
         "",
         "Draw an imaginary line 30cm long from the Shaman’s stand in any direction you wish. The line will pass through any intervening units but not beyond terrain that would normally stop a missile shot, e.g. over the crest of a hill, more than 2cm of woodland, and so forth.",
         "",
-        "Each unit under the line takes three shooting attacks worked out in the usual way. Note that this spell can easily affect several units and will affect all units that fall beneath the line (including your own). Unengaged units can be driven back by a Thunder of Fo’Wor as with ordinary shooting (even including friends). Engaged units cannot be driven back by the Thunder of Fo’Wor but carry over any hits scored into the first round of combat; any hits scored count as having been struck in the combat itself."
+        "Each unit under the line takes three shooting attacks worked out in the usual way. Note that this spell can easily affect several units and will affect all units that fall beneath the line (including your own). Unengaged units can be driven back by a Thunder of Fo’Wor as with ordinary shooting (even including friendly units). Engaged units cannot be driven back by the Thunder of Fo’Wor but carry over any hits scored into the first round of combat; any hits scored count as having been struck in the combat itself."
       ]
     },
     {
@@ -227,7 +227,7 @@
       "text": [
         "*The Shaman sacrifices a sacred Raven over a mystical flame. Ingesting the ash that is quickly formed, giving him visions of the near future.*",
         "",
-        "The Norse player may re-roll a single D6 at any time during the rest of his turn, through his opponents turn or in his following turn up to the end of his next Command phase when the effect of the spell ends if the re-roll has not already been used. The result of the re-roll cannot be changed in any way or re-rolled again, for example with an Orb of Majesty, Banner of Fortune or through other means. Likewise the re-roll from this spell cannot be used to re-roll any dice that another re-roll has already been used on. Nor can the re- roll be used in the case of a blunder of a command roll, not even mystical foresight can help avert such mishaps, but it can mitigate the effects, so can be used to re-roll the dice roll on the blunder chart. For example if the Norse player rolled for a command needing a roll of a seven and rolled a five and a three, he could re-roll the dice that came up as a five, hopefully rolling a four or less making it a successful command.",
+        "The Norse player may re-roll a single D6 at any time during the rest of his turn, through his opponents turn or in his following turn up to the end of his next Command phase when the effect of the spell ends if the re-roll has not already been used. The result of the re-roll cannot be changed in any way or re-rolled again, for example with an Orb of Majesty, Banner of Fortune or through other means. Likewise the re-roll from this spell cannot be used to re-roll any dice that another re-roll has already been used on. Nor can the re-roll be used in the case of a blunder of a command roll, not even mystical foresight can help avert such mishaps, but it can mitigate the effects, so can be used to re-roll the dice roll on the blunder chart. For example if the Norse player rolled for a command needing a roll of a seven and rolled a five and a three, he could re-roll the dice that came up as a five, hopefully rolling a four or less making it a successful command.",
         "",
         "Only one Eye of the Raven spell may be in effect per turn."
       ]

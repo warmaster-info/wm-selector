@@ -230,7 +230,7 @@
     "Earthshaker Cannon": {
       "order": 4,
       "text": [
-        "The Earthshaker acts as a Stone Thrower as described in main Rulebook. The exception is that the drive back from the Eartshaker shot causes confusion on rolls of 4+ rather than the usual 6+. In addition the Earthshaker shot causes confusion in units in base contact with the victim unit on rolls of 6 on a D6 (roll for each unit).",
+        "The Earthshaker acts as a Stone Thrower as described in main Rulebook. The exception is that the drive back from the Earthshaker shot causes confusion on rolls of 4+ rather than the usual 6+. In addition the Earthshaker shot causes confusion in units in base contact with the victim unit on rolls of 6 on a D6 (roll for each unit).",
         "",
         "The total number of Earthshakers and Death Rockets in the army is limited in the way that only 1 piece of this kind is allowed per 1000 points."
       ]
@@ -270,7 +270,7 @@
     "Sorcerer Lord": {
       "order": 9,
       "text": [
-        "The General may be true Sorcerer Lord, maybe even one of the living ancestors from Zharr-Naggrund. Sorcerer Lord can cast spells like a Wizard and can carry a magic item restricted to a Wizard if desired. Once during the battle Sorcerer Lord can add +1 to the dice when attempting to cast a spell. The player must announce that the Sorcerer’s special spell casting bonus is being used before rolling for the spell."
+        "The General may be a true Sorcerer Lord, maybe even one of the living ancestors from Zharr-Naggrund. A Sorcerer Lord can cast spells like a Wizard and can carry a magic item restricted to a Wizard if desired. Once during the battle a Sorcerer Lord can add +1 to the dice when attempting to cast a spell. The player must announce that the Sorcerer Lord’s special spell casting bonus is being used before rolling for the spell."
       ]
     },
     "Stone Thrower": {
@@ -315,7 +315,9 @@
       "text": [
         "*The wizard hurls flaming stones from his fingertips toward the enemy, battering everything in its path.*",
         "",
-        "Draw an imaginary line 30cm long extending from the Wizard’s stand in any direction you wish. Each unit under the line takes three shooting attacks worked out in the usual way. Note that this spell can easily affect several units and will affect all units that fall beneath its path, including your own. Unengaged units can be driven back by the Meteor Storm as with ordinary shooting. Engaged units cannot be driven back, but carry over any hits that are scorred into the first round of combat. Hits caused by the Meteor Storm count as having been struck in the combat itself."
+        "Draw an imaginary line 30cm long extending from the Sorcerer’s stand in any direction you wish. The line will pass through any intervening units but not beyond terrain that would normally stop a missile shot, e.g. over the crest of a hill, more than 2cm of woodland, and so forth.",
+        "",
+        "Each unit under the line takes three shooting attacks worked out in the usual way. Note that this spell can easily affect several units and will affect all units that fall beneath its path, including your own. Unengaged units can be driven back by the Meteor Storm as with ordinary shooting. Engaged units cannot be driven back, but carry over any hits that are scored into the first round of combat. Hits caused by the Meteor Storm count as having been struck in the combat itself."
       ]
     }
   ]

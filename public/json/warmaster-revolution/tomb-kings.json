@@ -140,7 +140,7 @@
       "order": 1,
       "type": "Chariot Mount",
       "attack": "+1",
-      "points": "+10",
+      "points": "+5",
       "max": 1
     }
   },
@@ -166,7 +166,7 @@
     "Bone Giant": {
       "order": 2,
       "text": [
-        "Bone Giants cause terror. When a Tomb King gives an order to a Bone Giant or a brigade that contains a Bone Giant there is a -1 Command penalty. There is no penalty when a Liche-Priest gives an order."
+        "Bone Giants cause terror. When a Tomb King gives an order to a Bone Giant or a brigade that contains a Bone Giant there is a -1 Command penalty. There is no penalty when a Liche Priest gives an order."
       ]
     },
     "Sphinx": {
@@ -187,13 +187,13 @@
     "Tomb King": {
       "order": 6,
       "text": [
-        "The Tomb King is empowered by the spells cast upon him when buried. He can use this power to increase the Combat Attacks value of all the stands in one unit within 20cm by+1 for the duration of one Combat phase. This ability can only be used once per battle."
+        "The Tomb King is empowered by the spells cast upon him when buried. He can use this power to increase the Combat Attacks value of all the stands in one unit within 20cm by +1 for the duration of one Combat phase. This ability can only be used once per battle."
       ]
     },
     "Zombie Dragon": {
       "order": 7,
       "text": [
-        "A Tomb King or Liche Priest can ride a Zombie Dragon. A Dragon can fly increasing its rider's move from 60 to 100cm and it adds +3 Attacks to those of its rider. Zombie Dragons have a special shooting attack - they can belch corrosive breath! This attack can only be used if the Dragon riding character has joined a unit but is not engaged in combat. A character that has not joined a unit cannot use the Breath attack. The corrosive breath has a range of 20cm. It can be directed against one target as normal and has 3 Attacks worked out in the usual way. The Zombie Dragon is a terrifying creature - a unit that has been joined by a Dragon riding character causes terror in its enemies."
+        "A Tomb King or Liche Priest can ride a Zombie Dragon. A Dragon can fly increasing its rider's move from 60 to 100cm and it adds +3 Attacks to those of its rider. Zombie Dragons have a special shooting attack - they can belch corrosive breath! This attack can only be used if the Dragon-riding character has joined a unit but is not engaged in combat. A character that has not joined a unit cannot use the Breath attack. The corrosive breath has a range of 20cm. It can be directed against one target as normal and has 3 Attacks worked out in the usual way. The Zombie Dragon is a terrifying creature - a unit that has been joined by a Dragon-riding character causes terror in its enemies."
       ]
     },
     "Liche Chariot": {
@@ -214,7 +214,7 @@
       "text": [
         "*At the Wizard's beckoning the mangled corpses that litter the battleground rise from the dead to continue the slaughter.*",
         "",
-        "This spell can be cast upon a combat engagement taking place within 30cm of the Wizard. The spell can be cast regardless of whether the Wizard can see any units in the combat engagement or not. A single combat engagement can only be affected once by this spell in any turn regardless of how many units are involved in the combat. For purposes of deciding whether a combat is eligible as a target, combat engagements are as they appear when the die to cast the spell is rolled: so it is possible for pursuit or advances to bring two units of raised dead into the same engagement later on.",
+        "This spell can be cast upon a combat engagement taking place within 30cm of the Wizard. The spell can be cast regardless of whether the Wizard can see any units in the combat engagement or not. A single combat engagement can only be affected once by this spell in any turn regardless of how many units are involved in the combat. For purposes of deciding whether a combat is eligible as a target, combat engagements are as they appear when the dice to cast the spell is rolled: so it is possible for pursuit or advances to bring two units of raised dead into the same engagement later on.",
         "",
         "A Skeleton unit of three stands is created. Each stand in the raised unit must be placed so that its front edge contacts an enemy stand from the targeted engagement, or that it supports a friendly stand from the same engagement, including raised stands. The placement of stands may not split up the engagement into multiple smaller engagements. If raised stands come into contact with unengaged enemy units, those units will join the engagement after the raised unit is placed, similar to incidental contact during pursuit. If it is impossible to position all stands in combat or support then the unit is not deployed and the spell fails. Raised dead do not count as charging in the first round of combat. Raised dead are ignored for working out break point and victory points at the end of the game."
       ]
@@ -250,7 +250,7 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "*A fearsome bolt of sorcerous lightning flies from the Wizard's outstretched finger tips and strikes an enemy unit.*",
+        "*A fearsome bolt of sorcerous lightning flies from the Wizard's outstretched fingertips and strikes an enemy unit.*",
         "",
         "This spell can be cast on an enemy unit. The Wizard must be able to see his target to use this spell. The spell cannot be directed at a unit engaged in combat.",
         "",
