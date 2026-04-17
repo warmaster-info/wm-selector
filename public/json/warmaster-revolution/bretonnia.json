@@ -64,7 +64,7 @@
     "Grail Knights": {
       "order": 5,
       "type": "Cavalry",
-      "attack": 3,
+      "attack": "3*",
       "hits": 3,
       "armour": "4+",
       "size": 3,

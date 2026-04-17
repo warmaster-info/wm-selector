@@ -38,7 +38,7 @@
     "Yhetees": {
       "order": 3,
       "type": "Infantry",
-      "attack": 5,
+      "attack": "5*",
       "hits": 4,
       "size": 3,
       "points": 90,
@@ -67,7 +67,7 @@
     "Rhinox Riders": {
       "order": 6,
       "type": "Cavalry",
-      "attack": 5,
+      "attack": "5*",
       "hits": 4,
       "armour": "5+",
       "size": 3,

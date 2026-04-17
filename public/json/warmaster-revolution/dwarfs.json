@@ -51,7 +51,7 @@
     "Troll Slayers": {
       "order": 4,
       "type": "Infantry",
-      "attack": 5,
+      "attack": "5‡",
       "hits": 4,
       "size": 3,
       "points": 80,
