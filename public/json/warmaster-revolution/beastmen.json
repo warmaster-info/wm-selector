@@ -72,7 +72,7 @@
     "Tuskgor Chariots": {
       "order": 6,
       "type": "Chariot",
-      "attack": 3,
+      "attack": "3*",
       "hits": 3,
       "armour": "5+",
       "size": 3,

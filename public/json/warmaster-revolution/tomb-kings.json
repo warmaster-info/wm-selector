@@ -36,7 +36,7 @@
     "Skeleton Chariots": {
       "order": 3,
       "type": "Chariot",
-      "attack": "3/1",
+      "attack": "3*/1",
       "range": "30cm",
       "hits": 3,
       "armour": "5+",

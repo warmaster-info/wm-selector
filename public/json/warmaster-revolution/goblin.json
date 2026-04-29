@@ -49,7 +49,7 @@
     "Wolf Chariots": {
       "order": 4,
       "type": "Chariot",
-      "attack": 3,
+      "attack": "3*",
       "hits": 3,
       "armour": "6+",
       "size": 3,
@@ -59,7 +59,7 @@
     "Pump Wagon": {
       "order": 5,
       "type": "Chariot",
-      "attack": "D6",
+      "attack": "D6*",
       "hits": 3,
       "armour": "5+",
       "size": 1,
