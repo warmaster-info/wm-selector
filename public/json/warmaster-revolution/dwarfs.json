@@ -84,7 +84,7 @@
       "type": "Machine",
       "attack": "1/3",
       "range": "30cm",
-      "hits": 3,
+      "hits": 4,
       "armour": "5+",
       "size": 1,
       "points": 75,

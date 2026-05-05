@@ -166,7 +166,10 @@
       "type": "Chariot Mount",
       "attack": "+2",
       "points": "+15",
-      "armyMax": 1
+      "armyMax": 1,
+      "requiredUnits": [
+        "Flagellants"
+      ]
     },
     "Handgunners": {
       "order": 2,
