@@ -17,11 +17,23 @@
 import { mapGetters } from 'vuex';
 import { marked } from 'marked';
 
+const FLUFF = /^\*[^*]+\*$/;
+
 export default {
   name: 'Spells',
+  props: {
+    noFluff: { type: Boolean, default: false }
+  },
   computed: mapGetters(['spells']),
   methods: {
-    marked: (text) => marked(text.join('\n'))
+    marked (text) {
+      let lines = text;
+      if (this.noFluff) {
+        lines = lines.filter((line) => !FLUFF.test(line));
+        while (lines.length && lines[0] === '') lines.shift();
+      }
+      return marked(lines.join('\n'));
+    }
   }
 };
 </script>

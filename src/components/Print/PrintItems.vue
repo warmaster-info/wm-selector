@@ -9,7 +9,7 @@
        <SpecialRules :used="true" v-if="item.abbr === 'sru'" />
        <MagicItems v-if="item.abbr === 'mi'" />
        <MagicItems :used="true" v-if="item.abbr === 'miu'" />
-       <Spells v-if="item.abbr === 'sp'" />
+       <Spells :noFluff="noFluff" v-if="item.abbr === 'sp'" />
        <QRCode class="handle" v-if="item.abbr === 'qr'" :value="qrCodeValue()" />
        <URL v-if="item.abbr === 'url'" />
     </div>
@@ -42,6 +42,9 @@ export default {
     TextList,
     URL,
     VueDraggable
+  },
+  props: {
+    noFluff: { type: Boolean, default: false }
   },
   computed: {
     printItems: {
