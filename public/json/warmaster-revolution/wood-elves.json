@@ -174,7 +174,7 @@
       "max": 1,
       "noMagic": true
     },
-    "Spell Weaver": {
+    "Spellweaver": {
       "order": 14,
       "type": "Wizard",
       "attack": "+0",
@@ -290,25 +290,25 @@
     "Giant Stag": {
       "order": 10,
       "text": [
-        "General, Nobles and Spell Weavers may ride a Giant Stag. The Stag adds +1 Attack to those of its rider."
+        "General, Nobles and Spellweavers may ride a Giant Stag. The Stag adds +1 Attack to those of its rider."
       ]
     },
     "Unicorn": {
       "order": 11,
       "text": [
-        "This mount can be ridden by Spell Weaver only. The Unicorn adds +1 Attack to those of its rider. Once per battle the Unicorn’s magical power adds +1 to the dice when casting a spell. The player must announce that the Unicorn’s magic before rolling to see if the spell works. There can be only one Unicorn in the army."
+        "This mount can be ridden by Spellweaver only. The Unicorn adds +1 Attack to those of its rider. Once per battle the Unicorn’s magical power adds +1 to the dice when casting a spell. The player must announce that the Unicorn’s magic before rolling to see if the spell works. There can be only one Unicorn in the army."
       ]
     },
     "Warhawk": {
       "order": 12,
       "text": [
-        "General, Nobles and Spell Weavers may ride a Warhawk. The Warhawk can fly, increasing its rider’s move from 60cm to 100cm, and it adds +1 Attack to those of its rider."
+        "General, Nobles and Spellweavers may ride a Warhawk. The Warhawk can fly, increasing its rider’s move from 60cm to 100cm, and it adds +1 Attack to those of its rider."
       ]
     },
     "Forest Dragon": {
       "order": 13,
       "text": [
-        "Generals, Nobles and Spell Weavers may ride Forest Dragons. A Forest Dragon can fly, increasing its rider’s move to 100cm, and adds +3 Attacks to those of its rider. Any unit joined by a character riding a Forest Dragon cause terror in their enemies and so long as the Dragon is attached to a unit, it can use its Corrosive Breath attack. This is a shooting attack with a range of 20cm, which can be directed against one target as normal. The breath has 3 Attacks, which are worked out in the usual way."
+        "Generals, Nobles and Spellweavers may ride Forest Dragons. A Forest Dragon can fly, increasing its rider’s move to 100cm, and adds +3 Attacks to those of its rider. Any unit joined by a character riding a Forest Dragon cause terror in their enemies and so long as the Dragon is attached to a unit, it can use its Corrosive Breath attack. This is a shooting attack with a range of 20cm, which can be directed against one target as normal. The breath has 3 Attacks, which are worked out in the usual way."
       ]
     }
   },
@@ -318,7 +318,7 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "The Spell Weaver calls forth a mass of tangling branches to surround their troops, protecting them from harm.",
+        "The Spellweaver calls forth a mass of tangling branches to surround their troops, protecting them from harm.",
         "",
         "This spell may be cast upon a single unengaged friendly Infantry unit within range, regardless of whether the caster can see them or not. The spell lasts until the start of the caster’s next turn, or until the target unit moves in any way. The target Infantry unit counts as Defended, even if it is in open terrain."
       ]
@@ -328,9 +328,9 @@
       "roll": 4,
       "range": "30cm",
       "text": [
-        "The Spell Weaver shrouds a friendly unit in nightmarish shadows, filling the enemy with fear.",
+        "The Spellweaver shrouds a friendly unit in nightmarish shadows, filling the enemy with fear.",
         "",
-        "This spell can only be cast on any friendly unit within range regardless of whether the Spell Weaver can see it or not.",
+        "This spell can only be cast on any friendly unit within range regardless of whether the Spellweaver can see it or not.",
         "",
         "The unit counts as causing terror for the duration of the Combat phase."
       ]
@@ -340,9 +340,9 @@
       "roll": 5,
       "range": "30cm",
       "text": [
-        "The Spell Weaver’s voice sings out across the battlefield directing troops above the tumult of combat with the magical Call of the Hunt.",
+        "The Spellweaver’s voice sings out across the battlefield directing troops above the tumult of combat with the magical Call of the Hunt.",
         "",
-        "The spell can be cast on any unengaged friendly unit within range regardless of whether the Spell Weaver can see it or not. The spell affects only a single unit, never a brigade and there is no supporting charge possible.",
+        "The spell can be cast on any unengaged friendly unit within range regardless of whether the Spellweaver can see it or not. The spell affects only a single unit, never a brigade and there is no supporting charge possible.",
         "",
         "The target unit must make a charge move into base contact with the nearest visible enemy unit in the same way as when charging, so all normal charge rules apply.",
         "",
@@ -354,9 +354,9 @@
       "roll": 6,
       "range": "60cm",
       "text": [
-        "The Spell Weaver awakens the fury of the forest to purge the enemy from their soil.",
+        "The Spellweaver awakens the fury of the forest to purge the enemy from their soil.",
         "",
-        "The spell can be cast upon any terrain piece in range that is designated as woods. All enemy units within 10cm of chosen wooded terrain piece take 3 shooting attacks worked out in the normal way. Affected units get no armour save if at least one of their",
+        "The spell can be cast upon any terrain piece in range that is designated as woods. All enemy units within 10cm of chosen wooded terrain piece take 3 shooting attacks worked out in the normal way. Affected units get no armour save if at least one of their stands is completely within the chosen terrain.",
         "",
         "Unengaged units are not driven back by this spell (the assault comes form the ground beneath their feet). Engaged units carry over any hits scored into the first round of combat; any hits scored count as having been struck in the combat itself."
       ]
