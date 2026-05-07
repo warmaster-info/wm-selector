@@ -4,20 +4,21 @@
       "order": "BB",
       "type": "Magic Standard",
       "points": {
-        "4": "+30",
         "5*": "+30",
         "4*": "+30",
+        "4": "+30",
         "3*": "+30",
+        "3*/1": "+30",
         "2*": "+30",
+        "D6*": "+30",
         "3": "+20",
-        "3†": "+20",
         "3‡": "+20",
-        "3/1": "+20",
-        "3/2": "+20",
         "3/2-1": "+20",
+        "3/2": "+20",
+        "3/1": "+20",
         "2": "+15",
-        "2/1": "+15",
-        "2/2": "+15"
+        "2/2": "+15",
+        "2/1": "+15"
       },
       "pointsValue": "attack",
       "armyMax": 1,
@@ -29,10 +30,9 @@
       "order": "BSh",
       "type": "Magic Standard",
       "points": {
-        "4+": "+50",
         "5+": "+30",
-        "6+": "+15",
-        "-": "+15"
+        "6+": "+20",
+        "-": "+20"
       },
       "pointsValue": "armour",
       "armyMax": 1,
@@ -71,20 +71,21 @@
       "order": "BFn",
       "type": "Magic Standard",
       "points": {
-        "4": "+15",
         "5*": "+15",
         "4*": "+15",
+        "4": "+15",
         "3*": "+15",
+        "3*/1": "+15",
         "2*": "+15",
+        "D6*": "+15",
         "3": "+10",
-        "3†": "+10",
         "3‡": "+10",
-        "3/1": "+10",
-        "3/2": "+10",
         "3/2-1": "+10",
+        "3/2": "+10",
+        "3/1": "+10",
         "2": "+5",
-        "2/1": "+5",
-        "2/2": "+5"
+        "2/2": "+5",
+        "2/1": "+5"
       },
       "pointsValue": "attack",
       "armyMax": 1,
@@ -154,7 +155,9 @@
       "text": [
         "If the General has this magic item he may disregard a single failed Command test and roll it again as if he had a Command value of 8. The usual adjustments are made for Command penalties but note that the previously failed roll is disregarded so it doesn’t count as a penalty. If the re-roll is successful the order is issued and the General can continuing issuing orders in the usual way with his normal Command value.",
         "",
-        "The Orb of Majesty will only work once in the entire game and only affects an order that has been issued by the General."
+        "The Orb of Majesty will only work once in the entire game and only affects an order that has been issued by the General.",
+        "",
+        "The Orb of Majesty cannot be used by Dark Elf or High Elf generals."
       ]
     },
     "Ring of Magic": {
@@ -307,8 +310,7 @@
       ],
       "upgrades": [
         "Crown of Command",
-        "Helm of Dominion",
-        "Orb of Majesty"
+        "Helm of Dominion"
       ],
       "magic": true
     },
@@ -320,7 +322,12 @@
       "unitType": [
         "General"
       ],
-      "upgrades": ["Sceptre of Sovereignty"],
+      "upgrades": [
+        "Crown of Command",
+        "Helm of Dominion",
+        "Orb of Majesty",
+        "Sceptre of Sovereignty"
+      ],
       "magic": true
     },
     {

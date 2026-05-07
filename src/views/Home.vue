@@ -17,7 +17,6 @@
     </ArmyListAccordion>
 
     <ArmyListAccordion :title="'Warmaster Revolution Experimental'">
-      <a target="_blank" title="Warmaster Revolution Experimental Magic Items" href="https://drive.google.com/file/d/1nRGs8PVAJMyuefo4UzJ-VY9RF6pzqq9_/view"><span>Warmaster Revolution Experimental Magic Items</span></a>
       <a target="_blank" title="Warmaster Revolution Experimental Kingdoms of Ind" href="https://warmaster.info/en/revolution/experimental-units/kingdoms-of-ind"><span>Warmaster Revolution Experimental Kingdoms of Ind</span></a>
     </ArmyListAccordion>
 
