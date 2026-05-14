@@ -386,6 +386,9 @@ function initializeState (context, response) {
 
     printableItems.push({ abbr: 'mi', title: 'Magic Items' });
     printableItems.push({ abbr: 'miu', title: 'Magic Items Used' });
+  }
+
+  if (response.data.spells && response.data.spells.length) {
     printableItems.push({ abbr: 'sp', title: 'Spells' });
   }
 
