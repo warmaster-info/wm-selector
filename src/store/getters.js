@@ -10,7 +10,7 @@ export default {
   label: (state) => state.label,
   magic: (state) => state.magic,
   pointsCost: (state) => Object.values(state.units)
-    .reduce((pointsCost, unit) => pointsCost + unit.pointsCost, 0),
+    .reduce((pointsCost, unit) => pointsCost + +unit.pointsCost, 0),
   printItems: (state) => state.printItems,
   printableItems: (state) => state.printableItems,
   size: (state, getters) => Math.max(1, Math.floor((getters.pointsCost+199) / 1000)),

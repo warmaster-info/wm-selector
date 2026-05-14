@@ -436,25 +436,25 @@ describe('store.js actions', () => {
       it('min violation commits PUSH_ERROR', () => {
         context.getters.units['unit'] = { min: 2, number: 0, homologousUnits: ['homologous_unit'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 unit or homologous_unit per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 unit or homologous_unit in a 1,000 point army.');
       });
 
       it('prevent min violation', () => {
         context.getters.units['unit'] = { min: 2, number: 1, homologousUnits: ['homologous_unit'] };
         actions.validate(context);
-        expect(commit).not.toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 unit or homologous_unit per 1,000 points.');
+        expect(commit).not.toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 unit or homologous_unit in a 1,000 point army.');
       });
 
       it('max elite violation commits PUSH_ERROR', () => {
         context.getters.units['unit'] = { number: 0, max: 'elite', homologousUnits: ['homologous_unit'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 unit or homologous_unit per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 unit or homologous_unit in a 1,000 point army.');
       });
 
       it('max violation commits PUSH_ERROR', () => {
         context.getters.units['unit'] = { max: 1, number: 1, homologousUnits: ['homologous_unit'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 unit or homologous_unit per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 unit or homologous_unit in a 1,000 point army.');
       });
     });
 
@@ -484,25 +484,25 @@ describe('store.js actions', () => {
       it('min violation commits PUSH_ERROR', () => {
         context.getters.upgrades['upgrade'] = { min: 2, number: 0, homologousUpgrades: ['homologous_upgrade'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 upgrade or homologous_upgrade per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 upgrade or homologous_upgrade in a 1,000 point army.');
       });
 
       it('prevent min violation', () => {
         context.getters.upgrades['upgrade'] = { min: 2, number: 1, homologousUpgrades: ['homologous_upgrade'] };
         actions.validate(context);
-        expect(commit).not.toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 upgrade or homologous_upgrade per 1,000 points.');
+        expect(commit).not.toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 2 upgrade or homologous_upgrade in a 1,000 point army.');
       });
 
       it('max elite violation commits PUSH_ERROR', () => {
         context.getters.upgrades['upgrade'] = { number: 0, max: 'elite', homologousUpgrades: ['homologous_upgrade'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 upgrade or homologous_upgrade per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 upgrade or homologous_upgrade in a 1,000 point army.');
       });
 
       it('max violation commits PUSH_ERROR', () => {
         context.getters.upgrades['upgrade'] = { max: 1, number: 1, homologousUpgrades: ['homologous_upgrade'] };
         actions.validate(context);
-        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 upgrade or homologous_upgrade per 1,000 points.');
+        expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 1 upgrade or homologous_upgrade in a 1,000 point army.');
       });
     });
 
@@ -528,13 +528,13 @@ describe('store.js actions', () => {
     it('min violation commits PUSH_ERROR', () => {
       context.getters.units['unit'] = { min: 1, number: 0 };
       actions.validate(context);
-      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 1 unit per 1,000 points.');
+      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Minimum of 1 unit in a 1,000 point army.');
     });
 
     it('max elite violation commits PUSH_ERROR', () => {
       context.getters.units['unit'] = { number: 1, max: 'elite' };
       actions.validate(context);
-      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 unit per 1,000 points.');
+      expect(commit).toHaveBeenCalledWith('PUSH_ERROR', 'Maximum of 0 unit in a 1,000 point army.');
     });
 
     it('max "Up to Half" violation commits PUSH_ERROR', () => {
