@@ -1,7 +1,7 @@
 {
   "name": "Kingdoms of Ind",
   "version": "Warmaster Revolution Experimental",
-  "group": 3,
+  "group": 0,
   "order": 0,
   "units": {
     "Archers": {
