@@ -11,7 +11,7 @@
       <a target="_blank" title="Rules Update (included in the PDFs but not the printed rulebook)" href="/pdfs/Warmaster_Rules_Update.pdf"><span>Rules Update (included in the PDFs but not the printed rulebook)</span></a>
     </span>
 
-    <ArmyListAccordion :title="'Warmaster Revolution'">
+    <ArmyListAccordion :title="'Warmaster Revolution'" :subtitle="'v2.26'">
       <a target="_blank" title="Warmaster Revolution Rules" href="/pdfs/WMR 2.0.1.pdf"><span>Warmaster Revolution Compendium</span></a>
       <a target="_blank" title="Warmaster Revolution Armies" href="/pdfs/WMR_Armies2.25.pdf"><span>Warmaster Revolution Armies</span></a>
     </ArmyListAccordion>

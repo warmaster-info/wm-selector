@@ -1,6 +1,6 @@
 <template>
   <div :id="accordionID" class="army-list-accordion">
-    <button :id="accordionID + '_toggle_button'" class="h3" :aria-controls="accordionID + '_content'" :aria-expanded="activeArmyListAccordion === title" @click="activeArmyListAccordion = title">{{title}}</button>
+    <button :id="accordionID + '_toggle_button'" class="h3" :aria-controls="accordionID + '_content'" :aria-expanded="activeArmyListAccordion === title" @click="activeArmyListAccordion = title">{{title}} <span class="subtitle">{{subtitle}}</span></button>
 
     <div :id="accordionID + '_content'" aria-labelledby="accordionID + '_toggle_button'" :hidden="activeArmyListAccordion !== title">
       <span class="downloads">
@@ -54,7 +54,7 @@ export default {
   data () {
     return { armyLists: armyLists };
   },
-  props: ['title']
+  props: ['title', 'subtitle']
 };
 </script>
 
@@ -107,6 +107,12 @@ export default {
 
       &.selected {
         font-weight: bold;
+      }
+
+      > .subtitle {
+        font-size: 75%;
+        font-weight: normal;
+        color: grayscale(lighten($_link_color, 17.5%));
       }
     }
 
