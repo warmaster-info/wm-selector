@@ -1,7 +1,7 @@
 {
   "name": "Tomb Kings (Experimental)",
   "version": "Warmaster Revolution Experimental",
-  "group": 1,
+  "group": 2,
   "order": 0,
   "units": {
     "Ushabti": {
